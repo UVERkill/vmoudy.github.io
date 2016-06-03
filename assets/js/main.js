@@ -4,6 +4,11 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+$(window).on('beforeunload', function() {
+	$('html').hide(); // hide all before reload for fade in effect to work
+    $(window).scrollTop(0);
+});
+
 (function($) {
 
 	skel.breakpoints({

@@ -3999,3 +3999,17 @@
 					}
 
 	}
+
+/* ADDITIONS */
+.previewClass {
+	line-height: 0;
+}
+
+.previewClass .img1 {
+	z-index: 1;
+}
+
+.previewClass .img2 {
+	margin-top: -10px;
+	z-index: 2;
+}
