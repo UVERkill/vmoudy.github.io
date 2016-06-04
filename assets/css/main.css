@@ -4013,3 +4013,8 @@
 	margin-top: -10px;
 	z-index: 2;
 }
+
+.gameplayContainer {
+	margin-left: 10%;
+	margin-right: 10%;
+}
