@@ -4018,3 +4018,9 @@
 	margin-left: 10%;
 	margin-right: 10%;
 }
+
+.video {
+	left: 0;
+	width: 60vw; !important;
+	height: 34vw; !important;
+}
